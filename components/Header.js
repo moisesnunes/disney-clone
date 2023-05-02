@@ -1,11 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import {
-  HomeIcon,
-  ServerIcon,
-  PlusIcon,
-  StarIcon,
-} from "@heroicons/react/24/solid";
 import { signIn, useSession, signOut, getSession } from "next-auth/react";
 import { useRouter } from "next/router";
 

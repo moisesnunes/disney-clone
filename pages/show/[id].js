@@ -5,7 +5,6 @@ import { useSession, getSession } from "next-auth/react";
 import { useRouter } from "next/router";
 import Head from "next/head";
 import { useEffect, useState } from "react";
-import { PlusIcon, XMarkIcon } from "@heroicons/react/24/solid";
 import ReactPlayer from "react-player";
 
 export default function Shows({ result }) {
