@@ -75,7 +75,6 @@ export default function Shows({ result }) {
                 className="rounded-full border-2 border-white flex items-center justify-center w-11 h-11 cursor-pointer
               bg-black/60 hover:bg-[#2d2727]"
               >
-                <PlusIcon className="h-6" />
               </div>
               <div
                 className="rounded-full border-2 border-white flex items-center justify-center w-11 h-11 cursor-pointer
@@ -109,7 +108,6 @@ export default function Shows({ result }) {
               "
                 onClick={() => setShowPlayer(false)}
               >
-                <XMarkIcon className="h-5" />
               </div>
             </div>
             <div className="relative pt-[56.25%]">
